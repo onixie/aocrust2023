@@ -2,7 +2,7 @@
 name = "aocrust2023"
 version = "0.1.0"
 edition = "2021"
-default-run = "day3"
+default-run = "day4"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [[bin]]
@@ -16,6 +16,10 @@ path = "src/day2/main.rs"
 [[bin]]
 name = "day3"
 path = "src/day3/main.rs"
+
+[[bin]]
+name = "day4"
+path = "src/day4/main.rs"
 
 [dependencies]
 nom = { version = "7.1.3", features = ["docsrs"]}
